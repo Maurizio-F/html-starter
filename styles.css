@@ -70,14 +70,13 @@ a {
 }
 
 .nav-style {
-  list-style-type: none;
-  display: inline-block;
   color: rgb(51, 51, 51);
   float: right;
+  display: grid;
 }
 
 .nav-style li {
-  display: inline-block;
+  list-style-type: none;
 }
 
 h3 {
