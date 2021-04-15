@@ -20,18 +20,19 @@ body {
   text-align: center;
 }
 
+.peoples {
+  margin-top: 2em;
+  grid-gap: 2em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
 .people {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto 1fr;
   background: #3d3e44;
-  border-color: white;
-  border-radius: 10px;
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  display: grid;
+  border-radius: 1em;
 }
 
 .text {
