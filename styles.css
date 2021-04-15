@@ -21,22 +21,32 @@ body {
 }
 
 .people {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto 1fr;
   background: #3d3e44;
   border-color: white;
   border-radius: 10px;
-  width: 500px;
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  display: flex;
+  display: grid;
 }
+
 .text {
-  text-align: left;
-  padding-left: 13px;
+  padding: 0.75em;
+}
+
+.text * {
+  margin: 0;
 }
 
 .people img {
-  border-radius: 10px;
+  border-top-left-radius: 1em;
+  border-bottom-left-radius: 1em;
+  height: 14em;
+  width: 14em;
 }
 
 a {
